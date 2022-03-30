@@ -38,7 +38,7 @@ body {
   font-family: var(--primary-font);
   font-weight: 400;
   color: var(--text-color);
-  max-width: 1250px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 4vh 6vw;
   overflow-x: hidden;
@@ -86,8 +86,14 @@ h1+p, h2+p, h3+p {
 
 h3 {
   font-weight: 500;
-  font-size: 0.900rem;
+  /* font-size: 0.900rem; */
 }
+
+h4, h5 {
+  font-weight: 500;
+  /* font-size: 0.900rem; */
+}
+
 
 nav {
   margin: 1em 0 3em
@@ -108,7 +114,8 @@ main section {
   grid-column: 1 / -1;
 }
 
-@media (max-width: 1200px) {
+/* was 1200px */
+@media (max-width: 1000px) {
   content, side, article, aside {
     grid-column: 1 / -1;
     max-width: calc(100vw - 12vw)

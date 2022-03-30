@@ -9,9 +9,8 @@
   font-family: 'Karla';
   src: url('../fonts/Karla/Karla-Light.ttf') format('ttf');
   font-weight: 200 300 400 500 600 700 800;
-  font-style: normal;
+  /* font-style: normal; */
 }
-
 
 @font-face {
   font-family: 'Inter Variable';
