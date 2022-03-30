@@ -1,4 +1,7 @@
 ---
+layout: note
+title: Documentation
+favicon:
 ---
 
 March 20th-29th
