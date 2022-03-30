@@ -8,8 +8,10 @@
   --primary-color: #CFD2D2;
   --background-color: #F9F9F9;
   --callout-background: #EDEEEE;
-  --primary-font: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-  --heading-font: "Wremena", "Times", "Times New Roman", serif;
+  /* --primary-font: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; */
+  /* --heading-font: "Wremena", "Times", "Times New Roman", serif; */
+  --primary-font: "Rubik", sans-serif;
+  --heading-font: "Karla", serif;
   /* Set headings to large size by increasing :root em font size */
   /* Calc with vw makes font sizes intrinsically responsive */
   font-size: calc(1.75em + 0.5vw);
@@ -64,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
   margin-bottom: 0;
   padding-bottom: 0;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.3;
 }
 
@@ -82,7 +84,7 @@ h1+p, h2+p, h3+p {
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.900rem;
 }
 
