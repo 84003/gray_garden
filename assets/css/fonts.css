@@ -1,15 +1,47 @@
 @font-face {
   font-family: 'Rubik';
   src: url('../fonts/Rubik/static/Rubik-Regular.ttf') format('ttf');
-  font-weight: 300 400 500 600 700 800 900;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Karla';
-  src: url('../fonts/Karla/Karla-Light.ttf') format('ttf');
-  font-weight: 200 300 400 500 600 700 800;
-  /* font-style: normal; */
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik/static/Rubik-Black.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('../fonts/Alegreya/static/Alegreya-Regular.ttf') format('ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('../fonts/Alegreya/static/Alegreya-Medium.ttf') format('ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('../fonts/Alegreya/static/Alegreya-SemiBold.ttf') format('ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('../fonts/Alegreya/static/Alegreya-Bold.ttf') format('ttf');
+  src: url('../fonts/Alegreya/static/Alegreya-Bold.ttf') format('ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('../fonts/Alegreya/static/Alegreya-Black.ttf') format('ttf');
+  src: url('../fonts/Alegreya/static/Alegreya-Black.eot') format('eot');
+  font-weight: 800;
 }
 
 @font-face {
