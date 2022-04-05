@@ -4,20 +4,6 @@ title: Rebecca Rui
 id: home
 ---
 
-- Information
-	- Introduction
-	- rebrui(at)tuta(dot)io
-	- Credits
-- Online presence
-	- Vimeo
-	- Linkedin
-- Projects
-	- 2020 one puzzle, two ways of puzzling
-	- 2019 architext
-	- 2018 manufacturinng habits
-	- 2017 our frames
-	- 2017 tapijt boy
-
 Welcome to my digital garden where I tend [information](http://127.0.0.1:4000/digital_garden/information) and thoughts. I'm an Obsidian native and thought I'd venture out to the online realm. The first subject I will be exploring is [[Information Theory]]. And here you can go to [Setup](https://ifonts.xyz/ogg-font-family.html) and to [Rebecca Rui](http://127.0.0.1:4000/digital_garden/rebecca-rui)
 
 ## This is Heading Two
