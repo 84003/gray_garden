@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Rebecca Rui
+title: Node-Link Garden
 id: home
 ---
 
 Welcome to my digital garden where I tend [information](http://127.0.0.1:4000/digital_garden/information) and thoughts. I'm an Obsidian native and thought I'd venture out to the online realm. The first subject I will be exploring is [[Information Theory]]. And here you can go to [Setup](https://ifonts.xyz/ogg-font-family.html) and to [Rebecca Rui](http://127.0.0.1:4000/digital_garden/rebecca-rui)
+
+# One When I Need It
+
+**Explicit internal connections** are content items that by convention take the form of a footnote or marginal annotations — the content of which can be a commentary on an idea, clarification of a term, parenthetical information and suchlike. **Explicit external connections** are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference. Interconnection thus implies multiple potential structures other than the paragraph-by-paragraph sequence of text.
 
 ## This is Heading Two
 
@@ -18,7 +22,7 @@ The motivation behind this approach resonates with what Mary Hopper stated:
 
 #### That's Right Heading Four
 
-The concept of interconnection denotes the various connections among the content items[^content_item] of documents. As Ted Nelson (1987) explains, connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as "in the example given below" or "as defined previously" establish **implicit internal connections**.  **Explicit internal connections** are content items that by convention take the form of a footnote or marginal annotations — the content of which can be a commentary on an idea, clarification of a term, parenthetical information and suchlike. **Explicit external connections** are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference. Interconnection thus implies multiple potential structures other than the paragraph-by-paragraph sequence of text.
+The concept of interconnection denotes the various connections among the content items[^content_item] of documents. As Ted Nelson (1987) explains, connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as "in the example given below" or "as defined previously" establish **implicit internal connections**.
 
 ## And Two Again
 

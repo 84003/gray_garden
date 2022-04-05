@@ -33,7 +33,7 @@
   /* font-size: calc(1.75em + 0.5vw); */
   font-size: calc(1.7em + 0.5vw);
   line-height: 1.7;
-  letter-spacing: -0.015em;
+  /* letter-spacing: -0.015em; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -56,10 +56,25 @@ body {
   /* font-weight: 400; */
   color: var(--text-color);
   /* max-width: 800px; */
+  /* max-width: 1000px; */
+  /* margin: 0 auto; */
+  /* padding: 4vh 6vw; */
+  /* padding: 0; */
+  /* background-color: red; */
+  overflow-x: hidden;
+}
+
+.w {
+  /* width: 80%; */
+  /* background-color: yellow; */
   max-width: 1000px;
   margin: 0 auto;
-  padding: 4vh 6vw;
-  overflow-x: hidden;
+  padding: 2em 1em;
+}
+
+nav {
+  /* margin: 1em 0 3em */
+  margin-bottom: 2em;
 }
 
 ::selection {
@@ -154,9 +169,6 @@ h5 {
 }
 
 
-nav {
-  margin: 1em 0 3em
-}
 
 #notes-entry-container, main {
   display: grid;
@@ -174,12 +186,12 @@ main section {
 }
 
 /* was 1200px */
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   content, side, article, aside {
     grid-column: 1 / -1;
     max-width: calc(100vw - 12vw)
   }
-}
+} */
 
 section.callout {
   padding: 3em 2em;
@@ -199,8 +211,7 @@ aside {
   background: var(--callout-background);
   padding: 1em;
   border-radius: 4px;
-/* font-size: calc(0.3rem + 0.5vw); */
-  font-size: 0.4rem;
+  font-size: 0.45rem;
   line-height: 1.3;
 }
 
@@ -251,20 +262,6 @@ ul {
   margin-top: 0;
 }
 
-strong, b {
-  font-weight: 700;
-  color: var(--heading-color);
-  font-family: var(--link-font);
-  /* font-style: italic; */
-}
-
-em, i {
-  font-weight: 500;
-  color: var(--heading-color);
-  font-family: var(--link-font);
-  font-style: italic;
-}
-
 /* Footer */
 footer {
   margin: 2em 0;
@@ -306,6 +303,20 @@ table th, table td {
   padding: 0.25em 0.5em
 }
 
+strong, b {
+  font-weight: 700;
+  color: var(--heading-color);
+  font-family: var(--link-font);
+  /* font-style: italic; */
+}
+
+em, i {
+  font-weight: 500;
+  color: var(--heading-color);
+  font-family: var(--link-font);
+  font-style: italic;
+}
+
 /* Links */
 a {
   transition: all 300ms;
@@ -316,6 +327,12 @@ a {
   font-family: var(--link-font);
 }
 
+#index-link {
+  font-size: 0.45rem;
+  font-weight: 700;
+  /* font-family: var(--primary-font); */
+}
+
 a:hover, a:focus {
   transition: all 300ms;
   background: var(--primary-color);
@@ -324,7 +341,7 @@ a:hover, a:focus {
 a::after {
   font-size: 0.7em;
   content: "↗";
-  color: var(--text-color-faded);
+  color: var(--primary-color);
   top: -0.5em;
   position: relative;
 }
