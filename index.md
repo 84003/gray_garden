@@ -1,14 +1,28 @@
 ---
 layout: page
-title: Central Node
+title: Rebecca Rui
 id: home
 ---
 
-Welcome to my digital garden where I tend information and thoughts. I'm an Obsidian native and thought I'd venture out to the online realm. The first subject I will be exploring is [[Information Theory]]. And here you can go to [Setup](https://ifonts.xyz/ogg-font-family.html).
+- Information
+	- Introduction
+	- rebrui(at)tuta(dot)io
+	- Credits
+- Online presence
+	- Vimeo
+	- Linkedin
+- Projects
+	- 2020 one puzzle, two ways of puzzling
+	- 2019 architext
+	- 2018 manufacturinng habits
+	- 2017 our frames
+	- 2017 tapijt boy
+
+Welcome to my digital garden where I tend [information](http://127.0.0.1:4000/digital_garden/information) and thoughts. I'm an Obsidian native and thought I'd venture out to the online realm. The first subject I will be exploring is [[Information Theory]]. And here you can go to [Setup](https://ifonts.xyz/ogg-font-family.html) and to [Rebecca Rui](http://127.0.0.1:4000/digital_garden/rebecca-rui)
 
 ## This is Heading Two
 
-The first section of this entry introduces the concept of interconnection, the various terms used to express the idea of interconnection across fields, and the underlying philosophical position. The second section examines analog and digital systems developed throughout history, comprising concepts for representing interconnection. Those concepts are juxtaposed to how they have been implemented in commonly known systems, such as how hypertext is implemented on the Web.
+The **first section** of this entry introduces the concept of *interconnection*, the various terms used to express the idea of interconnection across fields, and the underlying philosophical position. The **second section** examines analog and digital systems developed throughout history, comprising concepts for representing interconnection. Those concepts are juxtaposed to how they have been implemented in commonly known systems, such as how hypertext is implemented on the Web.
 
 ### But Here is Heading Three
 

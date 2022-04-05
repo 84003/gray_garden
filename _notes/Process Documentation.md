@@ -1,8 +1,10 @@
 ---
 layout: note
-title: Documentation
+title: Process Documentation
 favicon:
 ---
+
+Below is the tentative outline of the process of buidling, designing, and adding content to this digital garden.
 
 March 20th-29th
 
@@ -20,3 +22,4 @@ April X
 
 April X
 - [ ] Start course on Information Theory.
+- First entry: [[Information]]
