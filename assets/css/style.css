@@ -8,30 +8,13 @@
   --primary-color: #CFD2D2;
   --background-color: #F9F9F9;
   --callout-background: #EDEEEE;
-  /* --primary-font: "Inter Variable", "Inter", sans-serif; */
   --primary-font: "Founders Grotesk", sans-serif;
   --heading-font: "Founders Grotesk", sans-serif;
-  --link-font: "Playfair Display", serif;
-  /* good combination */
-  /* --primary-font: "Founders Grotesk", sans-serif;
-  --heading-font: "Spectral", serif; */
-  /* mess */
-  /* --heading-font: "Cormorant Garamond", serif; */
-  /* --primary-font: "Space Grotesk", sans-serif; */
-  /* --primary-font: "Gothic A1", sans-serif; */
-  /* --heading-font: "Gothic A1", sans-serif; */
-  /* --primary-font: "Amiko", sans-serif; */
-  /* --primary-font: "Rubik", sans-serif; */
-  /* --primary-font: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; */
-  /* --heading-font: "Wremena", "Times", "Times New Roman", serif; */
-  /* --primary-font: "Karla", sans-serif; */
-  /* --heading-font: "Founders_Grotesk", sans-serif; */
-  /* --primary-font: "Founders_Grotesk", sans-serif; */
-  /* --heading-font: 'Source Code Pro', monospace; */
+  --link-font: "Editorial_New", serif;
+  /* --link-font: "Reckless Neue", serif; */
   /* Set headings to large size by increasing :root em font size */
   /* Calc with vw makes font sizes intrinsically responsive */
   /* font-size: calc(1.75em + 0.5vw); */
-  font-size: calc(1.7em + 0.5vw);
   line-height: 1.7;
   /* letter-spacing: -0.015em; */
   -webkit-font-smoothing: antialiased;
@@ -40,7 +23,8 @@
 
 /* Reset non-headings to a smaller size while retaining visual rhythm */
 main>*>:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6), footer *, nav * {
-  font-size: .6rem;
+  /* Do not scale the following font-size */
+  /* font-size: 1.25rem; */
 }
 
 /* Full bleed reset */
@@ -51,39 +35,29 @@ body, html {
 
 /* Body Styles */
 body {
+  font-size: calc(1em + 0.5vw);
   background-color: var(--background-color);
   font-family: var(--primary-font);
-  /* font-weight: 400; */
   color: var(--text-color);
-  /* max-width: 800px; */
-  /* max-width: 1000px; */
-  /* margin: 0 auto; */
+  /* max-width: 1750px; */
   /* padding: 4vh 6vw; */
-  /* padding: 0; */
-  /* background-color: red; */
   overflow-x: hidden;
 }
 
 .w {
-  /* width: 80%; */
-  /* background-color: yellow; */
   max-width: 1000px;
+  width: 80%;
   margin: 0 auto;
-  padding: 2em 1em;
-}
-
-nav {
-  /* margin: 1em 0 3em */
-  margin-bottom: 2em;
+  padding-top: 4rem;
 }
 
 ::selection {
-  color: var(--text-color);
+  color: black;
   background: var(--primary-color);
 }
 
 ::-moz-selection {
-  color: var(--text-color);
+  color: black;
   background: var(--primary-color);
 }
 
@@ -95,86 +69,82 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 /* Heading Styles */
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--heading-color);
   margin-bottom: 0;
   padding-bottom: 0;
-  /* font-style: italic; */
-  /* line-height: 1.3; */
-  /* text-transform: uppercase; */
-  /* font-weight: 400; */
+  line-height: 1.3;
 }
 
 h1:first-of-type {
-  /* font-size: 110%; */
-  /* font-weight: 300; */
-  /* font-size: 200%; */
-  /* line-height: 1; */
+  font-size: 250%;
+  line-height: 0.8;
+  /* line-height: 50%;; */
+  font-weight: 200;
+  /* padding-top: .75em; */
+  margin-top: 0;
+  padding-top: 90px;
 }
 
-h2+h3 {
+#backlink-box-header {
   margin-top: 0;
-  /* margin-top: 0.25em; */
-}
-
-/* h1+p, h2+p, h3+p {
-  margin-top: 0.25em;
-} */
-
-h1+p, h2+p, h3+p, h4+p, h5+p {
-  /* margin-top: 0.25em; */
-  margin-top: 0;
+  padding-top: 80px;
+  font-weight: 100;
+  /* font-style: italic;
+  text-transform: uppercase; */
+  font-size: 100%;
+  line-height: 1;
 }
 
 h1 {
-  font-weight: 300;
-  font-size: 140%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-top: 0;
-  /* background-color: red; */
+  font-size: 250%;
+  font-weight: 200;
 }
 
 h2 {
-  font-weight: 400;
-  font-size: 85%;
-  margin-bottom: 0;
+  font-size: 225%;
+  font-weight: 300;
+
 }
 
 h3 {
-  font-weight: 600;
-  font-size: 67%;
-  margin-bottom: 0;
-  /* font-style: italic; */
-}
-
-h4 {
-  font-weight: 500;
-  font-style: italic;
-  font-size: 67%;
-  margin-bottom: 0;
-  /* text-transform: uppercase; */
+  font-size: 145%;
+  font-weight: 400;
   /* font-size: 0.900rem; */
 }
 
+h4 {
+  font-size: 135%;
+  font-weight: 400;
+}
+
 h5 {
-  font-weight: 600;
-  font-size: 60%;
-  margin-bottom: 0;
-  margin-top: 0;
-  /* background-color: red; */
-  font-style: italic;
-  /* font-size: 0.800rem; */
+  /* font-size: 90%; */
+  /* primary font is by default smaller than link color, therefore made bigger here */
+  /* font-size: 1.08rem; */
+  font-size: 85%;
+  font-weight: 500;
 }
 
 
+h2+h3 {
+  margin-top: 0.25em;
+}
+
+h1+p, h2+p, h3+p, h4+p {
+  margin-top: 0.25em;
+}
+
+nav {
+  margin: 1em 0 3em
+}
 
 #notes-entry-container, main {
   display: grid;
   grid-gap: 2em;
   grid-template-columns: 3fr 1fr;
-  grid-template-areas: "article aside"
+  grid-template-areas: "article aside";
 }
 
 article {
@@ -185,13 +155,12 @@ main section {
   grid-column: 1 / -1;
 }
 
-/* was 1200px */
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
   content, side, article, aside {
     grid-column: 1 / -1;
     max-width: calc(100vw - 12vw)
   }
-} */
+}
 
 section.callout {
   padding: 3em 2em;
@@ -211,8 +180,21 @@ aside {
   background: var(--callout-background);
   padding: 1em;
   border-radius: 4px;
-  font-size: 0.45rem;
+  /* font-size: 0.45rem; */
   line-height: 1.3;
+
+}
+
+.backlink-box a {
+  /* 97% of 1 rem */
+  font-size: 0.97rem;
+  font-weight: 700;
+}
+
+.backlink-box p {
+  /* color: red; */
+  /* same as index-link */
+  font-size: 1rem;
 }
 
 /* Article */
@@ -221,30 +203,34 @@ header, .archive span {
   font-variant-numeric: slashed-zero;
 }
 
+header {
+  padding-bottom: 2em;
+}
+
 header p {
   color: var(--text-color-faded);
-  font-size: 0.5rem;
+  /* font-size: 0.45rem; */
+  font-size: 1.08rem;
   margin-top: 0;
-  padding-bottom: 2em;
 }
 
 img {
   width: 100%;
   display: block;
   margin: 0 auto;
-  border-radius: 4px;
+  border-radius: 4px
 }
 
 blockquote {
   padding: 1.5em;
   margin: 0;
-  font-size: 0.88em;
+  /* font-size: 0.88em; */
   background: var(--callout-background);
-  border-radius: 4px;
+  border-radius: 4px
 }
 
 blockquote p {
-  margin: 0;
+  margin: 0
 }
 
 hr {
@@ -256,12 +242,6 @@ hr {
 }
 
 
-ul {
-  list-style: square;
-  margin-left: 0.5em;
-  margin-top: 0;
-}
-
 /* Footer */
 footer {
   margin: 2em 0;
@@ -271,7 +251,7 @@ footer {
 
 /* Archive Page */
 ul.archive, .archive li {
-  list-style-type: none;
+  list-style-type: square;
   margin-left: 0;
   padding-left: 0
 }
@@ -303,34 +283,53 @@ table th, table td {
   padding: 0.25em 0.5em
 }
 
+
 strong, b {
-  font-weight: 700;
-  color: var(--heading-color);
   font-family: var(--link-font);
-  /* font-style: italic; */
+  font-weight: 600;
+  /* font-size: .56rem; */
+  color: var(--heading-color);
 }
 
-em, i {
-  font-weight: 500;
-  color: var(--heading-color);
+i, em {
   font-family: var(--link-font);
-  font-style: italic;
+  font-weight: 600;
+  /* font-size: .56rem; */
+  color: var(--heading-color);
 }
 
 /* Links */
+
+a.internal-link {
+  /* font-size: .56rem; */
+  font-weight: 600;
+}
+
 a {
+  /* font-size: .56rem; */
+  font-size: 97%;
   transition: all 300ms;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--heading-color);
   border-bottom: 4px solid var(--primary-color);
   text-decoration: none;
+
+  /* added */
   font-family: var(--link-font);
+  /* font-size: 0.88em; */
 }
 
 #index-link {
-  font-size: 0.45rem;
+  font-size: 1rem;
   font-weight: 700;
-  /* font-family: var(--primary-font); */
+}
+
+#index-link-container {
+  /* font-size: .45rem; */
+  font-size: 11px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
 a:hover, a:focus {
@@ -339,12 +338,25 @@ a:hover, a:focus {
 }
 
 a::after {
-  font-size: 0.7em;
-  content: "↗";
+  font-size: 0.6em;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  /* content: "➚"; */
   color: var(--primary-color);
-  top: -0.5em;
+  /* var(--text-color-faded); */
+  top: -0.8em;
   position: relative;
 }
+/*
+content: " ";
+display: inline-block;
+width: 0.8em;
+height: 0.8em;
+margin-left: 4px;
+padding-left: 1px;
+-webkit-mask-repeat: no-repeat;
+-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="slategrey" d="M13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z"/><path fill="slategrey" d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path></svg>');
+} */
 
 /* Need to exclude a img arrow for external links eventually */
 a.internal-link:after, a.footnote-backref:after {
@@ -451,7 +463,7 @@ pre {
 div.highlight {
   background: var(--callout-background);
   border-radius: 4px;
-  font-size: 1em;
+  /* font-size: 1em; */
   font-size: 0.9em;
   overflow: scroll;
   margin: 1em 0;
@@ -474,11 +486,11 @@ div.highlight pre {
 }
 
 .highlight .k {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .o {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .cm {
@@ -488,7 +500,7 @@ div.highlight pre {
 
 .highlight .cp {
   color: #999999;
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .c1 {
@@ -498,7 +510,7 @@ div.highlight pre {
 
 .highlight .cs {
   color: #999999;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-style: italic
 }
 
@@ -543,7 +555,7 @@ div.highlight pre {
 }
 
 .highlight .gs {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .gu {
@@ -555,24 +567,24 @@ div.highlight pre {
 }
 
 .highlight .kc {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .kd {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .kp {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .kr {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .kt {
   color: #445588;
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .m {
@@ -593,7 +605,7 @@ div.highlight pre {
 
 .highlight .nc {
   color: #445588;
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .no {
@@ -606,12 +618,12 @@ div.highlight pre {
 
 .highlight .ne {
   color: #990000;
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .nf {
   color: #990000;
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .nn {
@@ -627,7 +639,7 @@ div.highlight pre {
 }
 
 .highlight .ow {
-  font-weight: bold
+  /* font-weight: bold */
 }
 
 .highlight .w {

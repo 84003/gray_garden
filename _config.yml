@@ -1,9 +1,9 @@
-title:               Rebecca Rui / Digital Garden
-# url:                 'https://digital_garden.rebeccarui.online'
-baseurl:             "/digital_garden"
+title:               Digital Garden
+url:                 'https://digitalgarden.rebeccarui.online'
+favicon:
 
 # https://jekyllrb.com/docs/configuration/options/
-# timezone: America/Los_Angeles
+timezone: Europe/Amsterdam
 
 # Comment out .htaccess if you're uploading to a non-Apache server such as Netlify
 # include:             ['.htaccess']
@@ -13,7 +13,7 @@ exclude:             ['_includes/notes_graph.json','obsidian-templates']
 
 # If you are using a host that cannot resolve URLs that do
 # not end with .html (such as Neocities or Dreamhost), set this to 'true'.
-use_html_extension:  false
+use_html_extension:  true
 
 # 'True' displays notes graph at bottom of each note
 show_notes_graph: true

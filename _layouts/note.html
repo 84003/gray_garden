@@ -9,9 +9,8 @@ layout: default
   {{ content }}
 </article>
 <aside>
-
+  <h5 id="backlink-box-header">This entry is mentioned in:</h5>
   {% if page.backlinks.size > 0 %}
-    <h5>Connected from</h5>
     {% for backlink in page.backlinks %}
     <div class="backlink-box">
       <a class="internal-link" href="{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
@@ -19,10 +18,13 @@ layout: default
     </div>
     {% endfor %}
   {% else %}
-  <h5>Mentioned in</h5>
-  <p>None</p>
+
+  <div>
+
+    <p class="backlink-box">No entries mention this entry.</p>
+
+  </div>
   {% endif %}
 </aside>
 <section>
-  {%- if site.show_notes_graph -%}<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>{% include notes-graph.html %}{%- endif -%}
-</section>
+  {%- if site.show_notes_graph -%}<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>{% include notes-graph.html %}{%- endif -%}</section>

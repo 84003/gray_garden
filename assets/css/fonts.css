@@ -1,246 +1,153 @@
 
 @font-face {
-  font-family: 'Ogg';
-  src: url('../fonts/Ogg/Ogg-Italic.otf') format('otf');
-}
-
-@font-face {
-  font-family: 'Ogg';
-  src: url('../fonts/Ogg/Ogg-Roman.otf') format('otf');
-}
-
-
-@font-face {
   font-family: 'Editorial New';
-  src: url('../fonts/Editorial_New/EditorialNewUltrabold800.otf') format('otf');
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'Editorial New';
-  src: url('../fonts/Editorial_New/EditorialNewRegular400.otf') format('otf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Editorial New';
-  src: url('../fonts/Editorial_New/EditorialNewUltralight200.otf') format('otf');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Founders Grotesk';
-  src: url('../fonts/Founders_Grotesk/Test_Founders_Grotesk_Light_300.otf') format('otf');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Founders Grotesk';
-  src: url('../fonts/Founders_Grotesk/Test_Founders_Grotesk_400.otf') format('otf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Founders Grotesk';
-  src: url('../fonts/Founders_Grotesk/Test_Founders_Grotesk_Medium_500.otf') format('otf');
-  font-weight: 500;
-}
-
-
-@font-face {
-  font-family: 'Founders Grotesk';
-  src: url('../fonts/Founders_Grotesk/Test_Founders_Grotesk_Semibold_600.otf') format('otf');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Founders Grotesk';
-  src: url('../fonts/Founders_Grotesk/Test_Founders_Grotesk_Bold_700.otf') format('otf');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('../fonts/Atlas_Grotesk/AtlasGrotesk-Black.otf') format('otf');
-  /* font-weight: 700; */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('../fonts/Atlas_Grotesk/AtlasGrotesk-Medium.otf') format('otf');
-  /* font-weight: 600; */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('../fonts/Atlas_Grotesk/AtlasGrotesk-Regular.otf') format('otf');
-  /* font-weight: 500; */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('../fonts/Atlas_Grotesk/AtlasGrotesk-Light.otf') format('otf');
-  /* font-weight: 400; */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('../fonts/Atlas_Grotesk/AtlasGrotesk-Thin.otf') format('otf');
-  /* font-weight: 300; */
-  font-style: normal;
-}
-
-
-/*
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/static/Alegreya-Regular.ttf') format('ttf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/static/Alegreya-Medium.ttf') format('ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/static/Alegreya-SemiBold.ttf') format('ttf');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/static/Alegreya-Bold.ttf') format('ttf');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/static/Alegreya-Black.ttf') format('ttf');
-  src: url('../fonts/Alegreya/static/Alegreya-Black.eot') format('eot');
-  font-weight: 800;
-} */
-
-@font-face {
-  font-family: 'Rubik';
-  src: url('../fonts/Rubik/static/Rubik-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Rubik';
-  src: url('../fonts/Rubik/static/Rubik-Black.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Inter Variable';
-  src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: normal;
-  font-feature-settings: "ss02"1 "frac"1;
-  font-variation-settings: "slnt"0;
-}
-
-@font-face {
-  font-family: 'Inter Variable';
-  src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: italic;
-  font-variation-settings: "slnt"-10;
-}
-
-@font-face {
-  font-family: 'Wremena';
-  src: url('../fonts/Wremena/WremenaLight.woff') format('woff2');
-  font-style: normal;
-  font-weight: 100;
-  font-variant-numeric: tabular-nums;
-}
-
-@font-face {
-  font-family: 'Wremena';
-  src: url('../fonts/Wremena/WremenaRegular.woff') format('woff2');
-  font-style: normal;
-  font-weight: 400;
-  font-variant-numeric: tabular-nums;
-}
-
-@font-face {
-  font-family: 'Wremena';
-  src: url('../fonts/Wremena/WremenaBold.woff') format('woff2');
-  font-style: normal;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Thin-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-ExtraLight-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Light-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Regular-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Medium-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-SemiBold-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Bold-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-ExtraBold-slnt=0.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Black-slnt=0.woff2') format('woff2');
-  font-style: normal;
+  src: url('../fonts/Editorial_New/EditorialNew-Heavy.otf') format('opentype');
+  /* font-style: normal; */
   font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('../fonts/Editorial_New/EditorialNew-Ultrabold.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 800;
+}
+
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('../fonts/Editorial_New/EditorialNew-Bold.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('../fonts/Editorial_New/EditorialNew-Medium.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('../fonts/Editorial_New/EditorialNew-Regular.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('../fonts/Editorial_New/EditorialNew-Light.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('../fonts/Editorial_New/EditorialNew-Ultralight.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('../fonts/Editorial_New/EditorialNew-Thin.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 100;
+}
+
+
+
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url('../fonts/Founders_Grotesk/FoundersGrotesk-Bold.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url('../fonts/Founders_Grotesk/FoundersGrotesk-Semibold.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url('../fonts/Founders_Grotesk/FoundersGrotesk-Medium.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url('../fonts/Founders_Grotesk/FoundersGrotesk-Regular.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url('../fonts/Founders_Grotesk/FoundersGrotesk-Light.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-Heavy.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-Bold.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-SemiBold.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-Medium.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-Regular.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-Book.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-Light.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('../fonts/Reckless_Neue/RecklessNeue-Thin.otf') format('opentype');
+  /* font-style: normal; */
+  font-weight: 100;
 }

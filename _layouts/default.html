@@ -4,13 +4,13 @@
 
 <body>
   <div class="w">
-  <nav>{% include nav.html %}</nav>
-
+  {% include nav.html %}
+  <!-- <nav>{% include nav.html %}</nav> -->
   <main>{{ content }}</main>
-  </div>
-  <footer>{% include footer.html %}</footer>
+  <!-- <footer>{% include footer.html %}</footer> -->
 
   {% include link-previews.html wrapperQuerySelector="content" %}
+</div>
 </body>
 
 </html>

@@ -3,19 +3,3 @@ title: Setup
 category: 
 ---
 
-The workflow is Obsidian >> Github >> Netlify.
-
-To install the Jekyll template, I followed the [steps delineated by megu](https://garden.megu.space/your-first-note.html#installation), with a few modifications, as seen below.
-
-1. Create new respository from the [Github Template](https://github.com/meewgumi/digital-garden-apache-template) by clicking "Use this template"
-2. Customize `_config.yml`
-3. ~~Sign up for [DeployHQ](https://www.deployhq.com/r/nx7qct)~~
-4. Connect Github repository to ~~DeployHQ~~ Netlify
-5. Add your server's FTP or SSH information
-6. Configure [Jekyll Build Commands](https://www.deployhq.com/guides/jekyll) on ~~DeployHQ~~ Netlify ~~and turn `vendor` caching on~~
-7. Deploy.
-
-In order to write and edit all entries in Obsidian, 
-
-
-Then I followed the steps for setting up [Obsidian](https://garden.megu.space/obsidian-setup.html).
