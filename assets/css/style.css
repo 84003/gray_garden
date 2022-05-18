@@ -11,6 +11,7 @@
   --primary-font: "Founders Grotesk", sans-serif;
   --heading-font: "Founders Grotesk", sans-serif;
   --link-font: "Editorial_New", serif;
+  --emoji-font: "Noto Emoji", sans-serif;
   /* --link-font: "Reckless Neue", serif; */
   /* Set headings to large size by increasing :root em font size */
   /* Calc with vw makes font sizes intrinsically responsive */
@@ -241,6 +242,10 @@ hr {
   /* background: #d9d9d9 */
 }
 
+li {
+  list-style-type: square;
+}
+
 
 /* Footer */
 footer {
@@ -338,13 +343,16 @@ a:hover, a:focus {
 }
 
 a::after {
-  font-size: 0.6em;
-  font-family: var(--primary-font);
+  /* uppercase */
+  font-size: 0.68em;
+  top: -0.17em;
+  /* lowercase */
+  /* font-size: 0.46em; */
+  /* top: -0.175em; */
+  font-family: var(--emoji-font);
   font-weight: 700;
-  /* content: "➚"; */
+  content: "↗️";
   color: var(--primary-color);
-  /* var(--text-color-faded); */
-  top: -0.8em;
   position: relative;
 }
 /*

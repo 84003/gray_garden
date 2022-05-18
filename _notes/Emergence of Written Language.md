@@ -1,11 +1,13 @@
 ---
 title: Emergence of Written Language
-category: 
-favicon: 
+category:
+favicon:
 ---
 
 ## Emergence of Written Language
 Source: [Khan](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/language-of-coins-2-8-proto-writing)
+
+Source: [KHA](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/language-of-coins-2-8-proto-writing)
 
 - Ancestors used natural materials to create pictorial representations of their reality.
 	- 30 000 years ago
@@ -22,7 +24,7 @@ Source: [Khan](https://www.khanacademy.org/computing/computer-science/informatio
 		- ![](https://www.christies.com/img/LotImages/2019/CKS/2019_CKS_18152_0401_002(a_mesopotamian_proto-cuneiform_clay_tablet_with_account_of_monthly_rat).jpg?w=400)
 			- This is an example of what is called protowriting. Conceptual meaning + conceptual meaning = new meaning. In this case, one sheep + ten notches = ten sheep.
 - Rebus principle:
-	- the use of existing symbols, such as pictograms, for their phonetic sound to represent new words. 
+	- the use of existing symbols, such as pictograms, for their phonetic sound to represent new words.
 	- Ancient writing systems used the rebus principle to represent abstract words that were difficult to represent with pictograms.
 	- The Narmer Palette is an early example of this.
 		- found along the Nile River in Egypt
