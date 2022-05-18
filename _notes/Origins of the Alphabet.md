@@ -1,10 +1,10 @@
 ---
-title: History of the alphabet
+title: Origins of the Alphabet
 category: 
 favicon: 
 ---
 
-## History of the alphabet
+## Origins of the Alphabet
 
 - Information:
 	- "Some message stored or transmitted using some medium"
@@ -17,3 +17,5 @@ favicon:
 			- Word signs, representing one meaningful concept
 			- Sound signs, representing chunks of sounds
 			- Number of symbols, more than 1500.
+
+- From Stone Tablets to [[Papyrus]]

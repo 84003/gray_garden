@@ -1,10 +1,10 @@
 ---
-title: Origins of written language
+title: Emergence of Written Language
 category: 
 favicon: 
 ---
 
-## Origins of written language
+## Emergence of Written Language
 Source: [Khan](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/language-of-coins-2-8-proto-writing)
 
 - Ancestors used natural materials to create pictorial representations of their reality.

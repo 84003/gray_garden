@@ -18,3 +18,4 @@ To install the Jekyll template, I followed the [steps delineated by megu](https:
 
 In order to write and edit all entries in Obsidian, I followed [these steps](https://garden.megu.space/obsidian-setup.html).
 
+I also added a staging area in the \_notes directory.

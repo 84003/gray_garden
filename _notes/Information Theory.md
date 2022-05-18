@@ -1,11 +1,7 @@
 ---
 title: Information Theory
-category: 
-tags: "Information Theory"
-favicon: 
+category:
+favicon:
 ---
 
-## Lessons
-Ancient Information Theory
-1. [[Origins of written language]]
-2. [[History of the alphabet]]
+[[Ancient Information Theory]]
