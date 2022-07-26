@@ -13,13 +13,13 @@ Below is a timeline of the process of building, configuring, designing (and addi
 	- network visualization
 - Set up with Obsidian.
 - Build, test, and deploy.
-- Configure url and domain.
+- Configure URL and domain.
 
 **April**
-- Design visual layout (edit css).
+- Design visual layout (edit CSS).
 - Reconfigure structure.
 - Edit notes in preparation for starting a course.
-- Start course (and take notes) on a subject.
+- Start a course (and take notes) on a subject.
 - Develop taxonomy and information structure using metadata, tags, and internal links.
 
 **July**

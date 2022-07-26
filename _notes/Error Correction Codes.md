@@ -4,6 +4,6 @@ tag: 🌱
 category: 
 ---
 
-Example:
+Examples:
 
 [[Hamming Code]]

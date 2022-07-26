@@ -26,13 +26,12 @@ Polybius describes a technology developed by Aeneas Tacticus — one of the earl
 
 The method involves two locations each with 10 torches, separated into two groups of five.
 
-First the sender raises a torch to signal to the receiver that a message is incoming. The receiver raises a torch to signal that they are ready.
+First, the sender raises a torch to signal to the receiver that a message is incoming. The receiver raises a torch to signal that they are ready.
 
 The sender then lights a number of each of the two groups. The first group of torches determines the row position in an alphabetic grid, shared by both the sender and receiver. The second group of torches determines the column position in the grid.
 
-Where the row and the column intersects, determines the letter sent.
+Where the row and the column intersect, determines the letter sent.
 
 Each group of five torches is a symbol, which was limited to five differences, from one to five torches.
 
 This means there are 25 differences.
-

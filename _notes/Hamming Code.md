@@ -6,21 +6,21 @@ category:
 
 Richard Hamming
 
-1940s 
+The 1940s 
 
 Bell Laboratory
 
-[In the 1940s computers stored information in the form of punch cards, where a hole represents 1 and no hole represented 0. ](https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/testtest)
+[In the 1940s computers stored information in the form of punch cards, where a hole represents 1 and no hole represented 0](https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/testtest).
 
-This system was error prone. 
+Error-prone system; bent cards or punched incorrectly.
 
-because cards could get bent or puched incorrectly.
+Causing system halt.
 
-such errors would cause the system to halt until the fault in the system could be found and corrected manually.
+Needed to find the error and correct it manually.
 
-This was the problem Hamming sought to solve by devising a method that would detect and correct single bit errors automatically without interrupting calculations
+This was the problem Hamming sought to solve by devising a method that would detect and correct single-bit errors automatically without interrupting calculations.
 
-Hamming based his method on the concept of a *parity bit*, which is a single bit that is added to the end of a sequence indicating whether the number of 1s in a sequence is even or odd, enabliing the receiver to detect whether an error has occurred.
+Hamming based his method on the concept of a *parity bit*, which is a single bit that is added to the end of a sequence indicating whether the number of 1s in a sequence is even or odd, enabling the receiver to detect whether an error has occurred.
 
 Correcting the error entails knowing which part of the sequence is incorrect.
 

@@ -4,7 +4,7 @@ tag: 🌿
 category: Information Theory, Definition
 ---
 
-[Source coding entails encoding information such that fewer bits are used than the original representation.]([Kahn](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/source-encoding-language-of-coins-4-9)) The aim is to eliminate redundancy and send information in fewer bits.
+[Source coding entails encoding information such that fewer bits are used than the original representation]([Kahn](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/source-encoding-language-of-coins-4-9)). The aim is to eliminate redundancy and send information in fewer bits.
 
 Source coding is also related to [[Data Compression|data compression]].
 

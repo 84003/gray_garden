@@ -4,7 +4,7 @@ tag: 🌱
 category: Information Theory, Technology of Writing, Description
 ---
 
-[Writing on papyrus led to a cursive script, called Hieratic.](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/history-of-the-alphabet-language-of-coins-3-9) The image below is one of the oldest surviving documents in the medium papyrus.
+[Writing on papyrus led to a cursive script, called Hieratic](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/history-of-the-alphabet-language-of-coins-3-9). The image below is one of the oldest surviving documents in the medium papyrus.
 
 Dated: 1600 BC
 

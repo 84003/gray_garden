@@ -4,7 +4,7 @@ tag: 🌿
 category: Information Theory, Technology of Writing, Summary
 ---
 
-In 3000 BC [[Ancient Egypt Writing Systems|Ancient Egypt, writing systems]] comprise both signs denoting sounds and signs denoting a concept. Around 650 BC, there was a dramatic decrease in the number of signs denoting sounds and increase in signs denoting a concept.
+In 3000 BC [[Ancient Egypt Writing Systems|Ancient Egypt, writing systems]] comprise both signs denoting sounds and signs denoting a concept. Around 650 BC, there was a dramatic decrease in the number of signs denoting sounds and an increase in signs denoting a concept.
 
 Around 1700 BC, [[Ancient Semitic Writing Systems|Ancient Semitic writing systems]] comprised no signs denoting a concept, only signs denoting sounds.
 

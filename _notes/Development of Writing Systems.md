@@ -4,7 +4,7 @@ tag: 🌿
 category: Information Theory, Technology of Writing, Summary
 ---
 
-A common pattern in the development of writing systems is that as the medium changes from stone tablets to paper, thereby changing the method of inscription, and as writing is practiced by more people rather than a select a few, symbols evolve from representing objects or ideas to representing sounds.
+A common pattern in the development of writing systems is that as the medium changes from stone tablets to paper, thereby changing the method of inscription, and as writing is practiced by more people rather than a select few, symbols evolve from representing objects or ideas to representing sounds.
 
 ## Ancient Writing Systems
 

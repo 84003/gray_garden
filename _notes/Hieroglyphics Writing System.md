@@ -10,7 +10,7 @@ The written language of 3000 BC Ancient Egypt is called hieroglyphics. It was a 
 
 Understanding that hieroglyphics is a phonetic, not a pictorial language was made possible by [[The Rosetta Stone]].
 
-Stone was the commonly used medium for hieroglyphics, withstanding time due to its durability. A new medium was emerging around the same time, [[Papyrus]] — one of the many crops grown along the Nile, which was sliced, soaked and pressed, glued together by the sugars to form a paper document. 
+Stone was the commonly used medium for hieroglyphics, withstanding time due to its durability. A new medium was emerging around the same time, [[Papyrus]] — one of the many crops grown along the Nile, which was sliced, soaked, and pressed, glued together by the sugars to form a paper document. 
 
 In contrast to stone tablets, papyrus was less durable but more mobile, so it was ideal for traveling across space rather than time.
 

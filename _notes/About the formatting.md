@@ -18,7 +18,7 @@ Each entry title is followed by metadata (if not null), taken from the [Jekyll f
 - 🌿 (budding) means entry has been selected for development and is being outlined and drafted.
 - 🌳 (evergreen) means entry (metadata, internal links, the content, and structure) is well-developed.
 
-The idea is that status of the entires will function as tags, enabling a grouping mechanism to get an overview and filter those that still need to be developed from those that are complete.
+The idea is that status of the entries will function as tags, enabling a grouping mechanism to get an overview and filter those that still need to be developed from those that are complete.
 
 **Updated**
 
@@ -26,7 +26,7 @@ By incorporating a [time stamp plugin](https://github.com/gjtorikian/jekyll-last
 
 **Category**
 
-The order of the categories have meaning: the first is the overarching subject to which the entry belongs, the second (optional) is the subcategory, and third describes the content type (essay, summary, definition, and so on).
+The order of the categories has meaning: the first is the overarching subject to which the entry belongs, the second (optional) is the subcategory, and the third describes the content type (essay, summary, definition, and so on).
 
 *Note: The `status` and `category`  only work as clickable tags in Obsidian, not yet on this website.*
 

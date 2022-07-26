@@ -1,17 +1,15 @@
 ---
-title: 
-tag: 
+title: Morse Code
+tag: 🌱 
 category: 
 ---
 
 insert image
 
-Paraphrased from: [source ](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/morse-code-the-information-age-language-of-coins-8-12)
-
-
+Continue entry with this [source](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/morse-code-the-information-age-language-of-coins-8-12).
 
 developed by 
-User interface was developed: a spring-loaded lever, the interaction invoolved tapping a finger on the lever to produce 
+User interface was developed: a spring-loaded lever, the interaction involved tapping a finger on the lever to produce 
 
 on the receiving end the finger tap would be reproduced.
 
