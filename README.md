@@ -1,4 +1,6 @@
 
-# [Gray Gardens](https://digitalgarden.rebeccarui.online/)
+# Gray Gardens
 
-Digital garden with sample content.
+A digital garden with sample content.
+
+[URL](https://digitalgarden.rebeccarui.online/)
